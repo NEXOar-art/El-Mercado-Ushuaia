@@ -1,0 +1,20 @@
+EL MERCADO USHUAIA — landing page
+
+ARCHIVOS
+- index.html: página y formularios.
+- styles.css: diseño adaptable, transiciones y estilos.
+- app.js: carta, búsqueda, carrito, WhatsApp, reservas y administrador.
+- assets/: cinco fotos descargadas de la galería pública de Google Maps de El Mercado Ushuaia. La fachada también se usa en el encabezado principal.
+- Capturas de pantalla: capturas originales del menú usadas para transcribir la carta.
+
+USO
+Extraé la carpeta completa y abrí index.html en un navegador moderno. La navegación, carta, carrito y formularios funcionan desde el archivo local. Three.js se carga desde jsDelivr para el detalle animado del encabezado; esa animación requiere conexión a internet. Las cinco fotos de la galería están incluidas localmente.
+
+CARTA Y PRECIOS
+La carta se transcribió de las capturas adjuntas. Las imágenes muestran precios de distintas fechas y algunos textos pequeños o parcialmente tapados; revisá los datos y corregí los precios antes de publicar. El botón “Editar precios” usa la clave 0608. Los cambios se guardan en este navegador y no actualizan automáticamente a otros visitantes.
+
+SEGURIDAD DEL ADMINISTRADOR
+La clave está en el JavaScript del navegador: sirve para editar localmente como demostración, pero no protege precios en un sitio público. Para uso real, conviene mover la edición a un panel con autenticación de servidor.
+
+DATOS DEL LOCAL
+El Mercado Ushuaia · Av. San Martín 1488, V9410BGO Ushuaia, Tierra del Fuego · WhatsApp +54 9 2901 55-0137.
